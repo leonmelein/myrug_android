@@ -8,7 +8,7 @@ android {
     compileSdkVersion 21
     buildToolsVersion "21.1.2"
     defaultConfig {
-        applicationId "nl.thesociallions.myrug"
+        applicationId "thesociallions.myrug"
         minSdkVersion 15
         targetSdkVersion 21
         versionCode 2
