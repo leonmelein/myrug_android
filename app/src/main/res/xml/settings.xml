@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings_Schedule">
+        <PreferenceScreen
+            android:title="@string/settings_editSchedule"
+            android:summary="@string/settings_editSchedule_detail">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="@string/SCHEDULE_editURL" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory android:title="@string/TITLE_credit">
+        <ListPreference
+            android:key="topup_method"
+            android:title="@string/Setting_RUGpas_TopUpMethod"
+            android:summary="@string/Setting_RUGpas_TopUpMethodDescrip"
+            android:dialogTitle="@string/Setting_RUGpas_TopUpMethodDescrip"
+            android:entries="@array/topupmethod"
+            android:entryValues="@array/tum"
+        />
+    </PreferenceCategory>-->
+
+    <PreferenceCategory android:title="@string/more">
+        <PreferenceScreen
+            android:title="@string/version"
+            android:summary="@string/app_codename">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="market://details?id=thesociallions.myrug" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="@string/about_help"
+            android:summary="@string/about_help_summary">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://myrug.thesociallions.nl" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="@string/terms"
+            android:summary="@string/terms_descrip">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://thesociallions.nl/apps/myrug/voorwaarden/" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:title="@string/privacy"
+            android:summary="@string/privacy_descrip">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://thesociallions.nl/apps/myrug/privacybeleid/" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Beta Community">
+        <PreferenceScreen
+            android:title="@string/bugreport"
+            android:summary="@string/bugreport_description">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="mailto:myrug@thesociallions.nl" />
+        </PreferenceScreen>
+        <ListPreference
+            android:key="betatest"
+            android:title="@string/beta_testers"
+            android:summary="@string/beta_testers_description"
+            android:dialogTitle="@string/beta_testers"
+            android:entries="@array/betatesters"
+            android:entryValues="@array/betatesters"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

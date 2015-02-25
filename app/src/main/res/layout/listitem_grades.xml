@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/coursetitle"
+        android:text="Webtechnologie"
+        android:gravity="center_vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_toLeftOf="@+id/grade"
+        android:minHeight="48dp"
+        android:maxHeight="72dp"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/grade"
+        android:singleLine="false"
+        android:text="8.0"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentTop="true"
+        android:textSize="24sp"
+        android:layout_alignTop="@+id/coursetitle"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="false"
+        android:gravity="center_vertical|right"
+        android:maxHeight="72dp"
+        android:minHeight="48dp" />
+
+</RelativeLayout>

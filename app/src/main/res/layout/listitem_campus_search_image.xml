@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/buttongroup">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:layout_width="fill_parent"
+            android:layout_height="160dp"
+            android:id="@+id/image"
+            android:adjustViewBounds="false"
+            android:scaleType="centerCrop"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Harmoniegebouw"
+            android:textSize="24dp"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="false"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="@color/primary"
+            android:layout_below="@+id/image"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_weight="0.5"
+            android:id="@+id/faculty"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:phoneNumber="false"
+            android:layout_alignParentLeft="true"
+            android:autoText="false"
+            android:layout_below="@+id/name"
+            android:text="LET"
+            android:layout_toLeftOf="@+id/buildingid"
+            android:textColor="#737373" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_weight="0.5"
+            android:id="@+id/buildingid"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:phoneNumber="false"
+            android:autoText="false"
+            android:text="1313"
+            android:layout_alignParentRight="true"
+            android:textColor="#737373"
+            android:layout_below="@+id/name" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#f4f4f4"
+            android:layout_below="@+id/buildingid"
+            android:id="@+id/main_divider" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/location_directions"
+            android:id="@+id/maps"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_below="@+id/faculty"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ff3d3d3d" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

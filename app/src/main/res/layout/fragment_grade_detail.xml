@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/detail"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Display1"
+        tools:text="8.5"
+        android:id="@+id/grade"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="false"
+        android:gravity="top"
+        android:layout_alignBottom="@+id/date"
+        android:layout_alignTop="@+id/name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        tools:text="Algemene Taalwetenschap"
+        android:id="@+id/name"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/grade"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:paddingLeft="16dp"
+        android:singleLine="false"
+        android:paddingRight="0dp"
+        android:textColor="#424242" />
+
+    <TextView
+        tools:text="21-1-2014 —"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+        android:id="@+id/date"
+        android:layout_alignParentBottom="false"
+        android:layout_toRightOf="@+id/grade"
+        android:paddingLeft="16dp"
+        android:textSize="18sp"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
+        android:layout_below="@+id/name"
+        android:paddingRight="8dp"
+        android:textColor="#424242"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        tools:text="KIB.CP06"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+        android:textSize="18sp"
+        android:id="@+id/coursecode"
+        android:textColor="#737373"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@+id/date"
+        android:layout_toEndOf="@+id/date"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:text="@string/gradedetail_related_grades"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/date"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="14sp"
+        android:gravity="center_vertical" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gradelist"
+        android:layout_below="@+id/textView3" />
+
+
+</RelativeLayout>

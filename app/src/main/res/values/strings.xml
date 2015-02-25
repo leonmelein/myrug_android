@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My RUG</string>
+    <string name="activity_signin">Welcome</string>
+    <string name="title_activity_main">Today</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Student ID</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_guid">Schedule GUID</string>
+
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_recovery">Forget password</string>
+    <string name="action_manual_setup">Manual setup</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This Student ID is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="app_version">0.9</string>
+    <string name="schedule_url" formatted="false">http://stdy.it/expschedule/?id=%s&amp;lang=en</string>
+    <string name="grades_url" formatted="false">https://nestor.rug.nl/webapps/RuG-pm-bb_bb60/mobile/progressGradesJsonAction?deviceAuthToken=%s&amp;deviceUser=%s</string>
+    <string name="title_activity_home">Today</string>
+    <string name="action_example">Example action</string>
+    <string name="version">Version</string>
+    <string name="app_codename">0.9 (Quantum Extreme)</string>
+    <string name="MENU_schedule">Schedule</string>
+    <string name="MENU_credit">Student Card</string>
+    <string name="MENU_grades">Grades</string>
+    <string name="MENU_computers">Computers</string>
+    <string name="MENU_search">Search</string>
+    <string name="MENU_about">About</string>
+    <string name="BETA_MENU_update_schedule">Update schedule</string>
+    <string name="today">Today</string>
+    <string name="drawer_open">Open menu</string>
+    <string name="drawer_close">Close menu</string>
+    <string-array name="schedule_views">
+        <item>Vandaag</item>
+        <item>Deze week</item>
+    </string-array>
+    <string-array name="new_menu_array">
+        <item>@string/today</item>
+        <item>@string/MENU_schedule</item>
+        <item>@string/MENU_grades</item>
+        <item>Campus</item>
+        <item>Settings</item>
+    </string-array>
+    <string-array name="menu_array">
+        <item>@string/today</item>
+        <item>@string/MENU_schedule</item>
+        <item>@string/MENU_credit</item>
+        <item>@string/MENU_grades</item>
+        <item>@string/TITLE_locations</item>
+        <item>@string/MENU_computers</item>
+        <item>@string/TITLE_people</item>
+        <item>@string/TITLE_about</item>
+    </string-array>
+    <string-array name="betatesters">
+        <item>Aileen Bus</item>
+        <item>Joost van Eck</item>
+        <item>Reinard van Dalen</item>
+        <item>Reinard\'s parents</item>
+    </string-array>
+
+    <string name="people_error_noserverresponse">Search is currently not available. Please try again later.</string>
+    <string name="TITLE_locations">Locations</string>
+    <!-- Setup -->
+    <string name="TITLE_setup">Welcome</string>
+    <string name="setup_continue">Continue</string>
+    <string name="beta_welcome">Sign in once and find everything RUG in one app.</string>
+    <string name="beta_myuniversity_snumber">Student number</string>
+    <string name="beta_myuniversity_snumber_hint">S2580861</string>
+    <string name="beta_myuniversity_password">Password</string>
+    <string name="beta_myuniversity_password_hint">MontyPyThon!@%^</string>
+    <string name="setup_getSettings">Getting settings</string>
+    <string name="setup_warning">Getting your schedule from Nestor. This can take some time!</string>
+    <string name="setup_error">To get your schedule, My Personal Timetable has to be available on Nestor. Add this module to your My Nestor page. Go to http://myrug.thesociallions.nl for more information.</string>
+    <string name="setup_retry">Retry</string>
+
+    <!-- Main -->
+    <string name="MAIN_header_schedule">Schedule</string>
+    <string name="MAIN_no_classes">No classes.\nEnjoy your day!</string>
+    <string name="MAIN_no_classes_image_description">Have a nice day!</string>
+    <string name="main_rugpas">Student card</string>
+    <string name="main_rugpas_placeholder">Unknown</string>
+    <string name="schedule_update_start">Updating schedule.</string>
+    <string name="schedule_update_end">Schedule updated.</string>
+    <string name="schedule_update_error">Schedule could not be updated.</string>
+
+    <!-- Grade -->
+    <string name="TITLE_grades">Grades</string>
+    <string name="GRADE_update">Refresh</string>
+    <string name="gradedetail_share">Share grade</string>
+    <string name="gradedetail_related_grades">Related grades</string>
+    <string name="gradedetail_share_text" formatted="false">I scored an %s on %s! /via #MyRUG</string>
+
+    <!-- Computer -->
+    <string name="TITLE_computers">Computers</string>
+
+    <!-- Credit -->
+    <string name="TITLE_credit">Student card</string>
+    <string name="CREDIT_update">Refresh</string>
+    <string name="credit_placeholder">€ —,—</string>
+    <string name="credit_update_title">Last update</string>
+    <string name="credit_update_date">__-__-____ __-__</string>
+    <string name="credit_update_current">Just now</string>
+    <string name="credit_topup_title">Top up</string>
+    <string name="credit_topup_myorder">My Order</string>
+    <string name="credit_topup_webdeposit">Webdeposit</string>
+    <string name="error_nointernetconnection">You\'re not connected to the internet. Please try again when you have a WiFi or 3G connection again.</string>
+    <string name="error_noserverresponse">Your balance is currently not available. Please try again later.</string>
+    <string name="error_walledgarden">You must login at this WiFi hotspot before we can update your schedule.</string>
+    <string name="error_nologin">Your credentials are wrong. Please correct them via About > Reset.</string>
+    <string name="error_noknowncard">Your balance is empty. Please top up and try again afterwards.</string>
+    <string name="error_unknown">Something went wrong, but even we don\'t know what. Sorry! :-( Please let us know: @TheSocialLions of myrug@thesociallions.nl.</string>
+
+    <!-- Schedule -->
+    <string name="TITLE_schedule">Schedule</string>
+    <string name="SCHEDULE_previous_day">Previous day</string>
+    <string name="SCHEDULE_next_day">Next day</string>
+    <string name="SCHEDULE_choose_day">Choose day</string>
+
+    <!-- ScheduleDetail -->
+    <string name="TITLE_schedule_detail">Details</string>
+    <string name="SCHEDULE_DETAIL_maps">View location in Maps</string>
+    <string name="SCHEDULE_DETAIL_ocasys">More information on Ocasys</string>
+    <string name="SCHEDULE_DETAIL_ocasys_url">https://www.rug.nl/ocasys/rug/main/setlang?ocasyslang=en&amp;referer=https://www.rug.nl/ocasys/rug/main/courseSearchResults?keywords=</string>
+    <string name="SCHEDULE_no_classes">No classes.\nEnjoy your day!</string>
+
+    <!-- Courses -->
+    <string name="TITLE_schedule_courses">Enrolled courses</string>
+
+    <!-- Search -->
+    <string name="TITLE_people">People</string>
+    <string name="PEOPLE_hint">Person...</string>
+    <string name="TITLE_searchresults">Results</string>
+    <string name="PEOPLE_explanation">Find a person</string>
+
+    <!-- About -->
+    <string name="TITLE_about">About</string>
+    <string name="ABOUT_reset">Reset</string>
+    <string name="ABOUT_logo_description">Logo of The Social Lions</string>
+    <string name="about_app_title">The app</string>
+    <string name="about_app_content">This app wouldn\'t be possible without our beta testers:\n- Joost van Eck\n- Reinard van Dalen\n- Aileen Bus\n…and many others!\n</string>
+    <string name="about_contact_title">Contact</string>
+    <string name="about_website">Website</string>
+    <string name="about_twitter">Twitter</string>
+    <string name="about_email">Email</string>
+    <string name="about_maker">The Social Lions</string>
+    <string name="about_maker_description">Developer</string>
+
+    <!-- Settings -->
+    <string name="autoupdate">Automatic updates</string>
+    <string name="autoupdate_descrip">Always the latest schedule</string>
+    <string name="title">This app</string>
+    <string name="termsandconditions">Legal details</string>
+    <string name="terms">Terms and Conditions</string>
+    <string name="terms_descrip">Necessary, but not evil.</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="privacy_descrip">Just to reassure you: we do not track you.</string>
+    <string name="title_activity_bug">Bug Tracker</string>
+    <string name="bug_send">Send</string>
+    <string name="about_help">Help</string>
+    <string name="about_help_summary">Setting up My Personal Timetable, setting up workgroups etc.</string>
+    <string name="location_hint">Find a building</string>
+    <string name="TITLE_building">Building</string>
+    <string name="location_nearby_url" formatted="false">http://stdy.it/app/location/closestloc.php?lat=%s&amp;long=%s&amp;lang=en</string>
+    <string name="SETUP_crederror">You did not enter your credentials sufficiently. Please correct.</string>
+    <string name="SETUP_nosched">No schedule found</string>
+    <string name="SETUP_ready">Login</string>
+    <string name="SETUP_lostpassword">Forgot password</string>
+    <string name="OK">OK</string>
+    <string name="SETUP_invalcred">Could not log in</string>
+    <string name="SETUP_invalcred_description">We couldn\'t login on Nestor. You\'ve probably entered your student number and password incorrectly.</string>
+    <string name="MENU_settings">Settings</string>
+    <string name="LOCATION_explaination">Find a location</string>
+    <string name="LOCATION_hint">Location...</string>
+    <string name="settings_editSchedule">Edit your schedule</string>
+    <string name="settings_Schedule">Schedule</string>
+    <string name="settings_Terms">Terms and conditions</string>
+    <string name="settings_editSchedule_detail">Choose your workgroups and chosen courses.</string>
+    <string name="settings_More">More</string>
+    <string name="setup_Welcome">Welcome</string>
+    <string name="setup_Wait">A moment please</string>
+    <string name="TITLE_settings">Settings</string>
+    <string name="settings_Schedule_manualUpdate">Update schedule</string>
+    <string name="settings_Schedule_manualupdate_detail">Update your schedule manually to correct any errors</string>
+    <string name="SCHEDULE_editURL">https://nestor.rug.nl/webapps/RuG-cf-bb_bb60/do/editTimeTable?module_id=_4640_1</string>
+    <string name="campus_error">Your location is not available at the moment. Please try again later.</string>
+    <string name="creator">Creator</string>
+    <string name="bugreport">File a Bug Report</string>
+    <string name="bugreport_description">Help us improve this app.</string>
+    <string name="creator_detail">The Social Lions</string>
+    <string name="more">More</string>
+    <string name="beta_testers">Beta Testers</string>
+    <string name="beta_testers_description">They mean a lot to us.</string>
+    <string name="Setting_RUGpas_TopUpMethod">Top Up method</string>
+    <string name="Setting_RUGpas_TopUpMethodDescrip">Choose your preferred method</string>
+
+    <string-array name="topupmethod">
+        <item>My Order</item>
+        <item>Webdeposit</item>
+    </string-array>
+    <string-array name="tum">
+        <item>app</item>
+        <item>web</item>
+    </string-array>
+
+    <string name="location_directions">Directions</string>
+    <string name="unknown">Unknown</string>
+    <string name="title_activity_scheduledetail">Details</string>
+    <string name="grade_share">Share grade</string>
+</resources>

@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetupActivity"
+    android:orientation="vertical">
+
+    <!-- Toolbar -->
+    <include
+        android:id="@+id/my_awesome_toolbar"
+        layout="@layout/app_toolbar"/>
+
+    <!-- Login progress -->
+
+    <!-- Signin form -->
+    <ScrollView android:id="@+id/login_form" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/my_awesome_toolbar"
+        android:fillViewport="false">
+
+        <LinearLayout android:id="@+id/email_login_form" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical"
+            android:paddingTop="16dp">
+
+            <EditText android:id="@+id/studentid" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="@string/prompt_email"
+                android:inputType="textNoSuggestions" android:maxLines="1"
+                android:singleLine="true" android:drawableLeft="@drawable/ic_student_inline"
+                android:drawablePadding="8dp"/>
+
+            <EditText android:id="@+id/password" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="@string/prompt_password"
+                android:inputType="textPassword"
+                android:maxLines="1" android:singleLine="true" android:drawableLeft="@drawable/ic_password_inline"
+                android:drawablePadding="8dp" />
+
+            <EditText android:id="@+id/guid" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:hint="@string/prompt_guid"
+                android:imeActionId="@+id/login"
+                android:imeActionLabel="@string/action_sign_in_short"
+                android:imeOptions="actionUnspecified" android:inputType="textNoSuggestions"
+                android:maxLines="1" android:singleLine="true"
+                android:drawablePadding="8dp" />
+
+            <Button android:id="@+id/email_sign_in_button" style="?android:textAppearanceMedium"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="16dp" android:text="@string/action_sign_in"
+                android:textStyle="bold" />
+
+            <Button
+                style="?android:textAppearanceMedium"
+                android:id="@+id/password_forget_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/action_recovery"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
+
+

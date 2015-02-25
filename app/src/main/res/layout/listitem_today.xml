@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_start" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+        android:textAppearance="@android:style/TextAppearance.Holo.Large" android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="13:00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/course_nl" android:layout_alignLeft="@+id/time_start" android:layout_below="@+id/time_start"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Inleiding Logica" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:paddingBottom="5dp"
+        android:textAppearance="@android:style/TextAppearance.Holo.Small"
+        android:layout_alignParentLeft="true"
+        android:text="Harmonie"
+        android:layout_below="@+id/course_nl"
+        android:textColor="#737373" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/type"
+        android:layout_alignParentRight="true"
+        android:text="Honours"
+        android:textColor="#737373" />
+</RelativeLayout>

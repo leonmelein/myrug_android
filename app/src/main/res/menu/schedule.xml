@@ -1,0 +1,26 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_previous_day"
+        android:title="@string/SCHEDULE_previous_day"
+        android:icon="@drawable/ic_back"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item android:id="@+id/choose_day"
+        android:title="@string/SCHEDULE_choose_day"
+        android:icon="@drawable/ic_pick_date"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+    <item android:id="@+id/action_next_day"
+        android:title="@string/SCHEDULE_next_day"
+        android:icon="@drawable/ic_forward"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+
+</menu>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:layout_width="fill_parent"
+            android:layout_height="160dp"
+            android:id="@+id/image"
+            android:adjustViewBounds="false"
+            android:scaleType="centerCrop"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/title"
+            android:textColor="#CC0000"
+            android:textSize="26sp"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentEnd="false"
+            android:layout_below="@+id/image"
+            android:focusableInTouchMode="false"
+            android:paddingTop="8dp"
+            android:visibility="visible"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            tools:text="Harmoniegebouw"/>
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/faculty"
+            android:textColor="#737373"
+            android:paddingBottom="16dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="false"
+            android:layout_below="@+id/title"
+            android:autoLink="none"
+            android:visibility="visible"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            tools:text="LET"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/buildingid"
+            android:textColor="#737373"
+            android:paddingBottom="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="false"
+            android:layout_toRightOf="@+id/faculty"
+            android:layout_toEndOf="@+id/faculty"
+            android:singleLine="false"
+            android:gravity="right"
+            android:autoLink="none"
+            android:visibility="visible"
+            android:layout_below="@+id/title"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            tools:text="1313"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/description"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/faculty"
+            android:visibility="visible"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            tools:text="Hoofdzetel van Letteren en Rechten"/>
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</ScrollView>

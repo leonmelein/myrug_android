@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My RUG</string>
+    <string name="action_recovery">Wachtwoord vergeten</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="action_sign_in">Log in</string>
+    <string name="activity_signin">Welkom</string>
+    <string name="action_sign_in_short">Log in</string>
+    <string name="error_field_required">Dit veld is verplicht.</string>
+    <string name="error_incorrect_password">Dit wachtwoord is onjuist.</string>
+    <string name="error_invalid_email">Dit studentnummer is onjuist.</string>
+    <string name="error_invalid_password">Dit wachtwoord is te kort.</string>
+    <string name="hello_world">hELLO wORLD</string>
+    <string name="prompt_email">Studentnummer</string>
+    <string name="prompt_password">Wachtwoord</string>
+    <string name="prompt_guid">Rooster GUID</string>
+
+    <string name="action_manual_setup">Handmatig instellen</string>
+    <string name="title_activity_main">Vandaag</string>
+    <string name="title_activity_settings">Instellingen</string>
+    <string name="app_version">0.9</string>
+    <string name="schedule_url" formatted="false">http://stdy.it/expschedule/?id=%s&amp;lang=nl</string>
+    <string name="grades_url" formatted="false">https://nestor.rug.nl/webapps/RuG-pm-bb_bb60/mobile/progressGradesJsonAction?deviceAuthToken=%s&amp;deviceUser=%s</string>
+
+        <string name="version">Versie</string>
+        <string name="app_codename">0.9 (Quantum Extreme)</string>
+        <string name="MENU_schedule">Rooster</string>
+        <string name="MENU_credit">RUGpas</string>
+        <string name="MENU_grades">Cijfers</string>
+        <string name="MENU_computers">Werkplekken</string>
+        <string name="MENU_search">Zoeken</string>
+        <string name="MENU_about">Over ons</string>
+        <string name="BETA_MENU_update_schedule">Rooster bijwerken</string>
+        <string name="today">Vandaag</string>
+        <string name="drawer_open">Open menu</string>
+        <string name="drawer_close">Sluit menu</string>
+
+        <string-array name="menu_array">
+            <item>@string/today</item>
+            <item>@string/MENU_schedule</item>
+            <item>@string/MENU_credit</item>
+            <item>@string/MENU_grades</item>
+            <item>@string/TITLE_locations</item>
+            <item>@string/MENU_computers</item>
+            <item>@string/TITLE_people</item>
+            <item>@string/TITLE_about</item>
+        </string-array>
+
+        <string-array name="new_menu_array">
+            <item>@string/today</item>
+            <item>@string/MENU_schedule</item>
+            <item>@string/MENU_grades</item>
+            <item>Campus</item>
+            <item>Instellingen</item>
+        </string-array>
+
+    <string-array name="schedule_views">
+        <item>Vandaag</item>
+        <item>Deze week</item>
+    </string-array>
+
+        <string-array name="betatesters">
+            <item>Aileen Bus</item>
+            <item>Joost van Eck</item>
+            <item>Reinard van Dalen</item>
+            <item>Reinard\'s ouders</item>
+        </string-array>
+
+        <string-array name="topupmethod">
+            <item>My Order</item>
+            <item>Webdeposit</item>
+        </string-array>
+
+        <string-array name="tum">
+            <item>app</item>
+            <item>web</item>
+        </string-array>
+
+        <string name="people_error_noserverresponse">Zoeken is momenteel niet beschikbaar. Probeer het later opnieuw.</string>
+
+        <string name="TITLE_locations">Locaties</string>
+        <!--Setup-->
+        <string name="TITLE_setup">Welkom</string>
+        <string name="setup_continue">Stel in</string>
+        <string name="beta_welcome">Eén keer inloggen en de hele RUG is binnen handbereik.</string>
+        <string name="beta_myuniversity_snumber">Studentnummer</string>
+        <string name="beta_myuniversity_snumber_hint">S2580861</string>
+        <string name="beta_myuniversity_password">Wachtwoord</string>
+        <string name="beta_myuniversity_password_hint">PeerdVanOmeLoeks!@%^</string>
+        <string name="setup_getSettings">Instellingen ophalen</string>
+        <string name="setup_warning">Rooster van Nestor ophalen. Dit kan een tijdje duren!</string>
+        <string name="setup_error">Om je rooster te kunnen vinden, moet My Personal Timetable op Nestor aan staan. Voeg deze module toe aan je My Nestor pagina. Zie http://myrug.thesociallions.nl voor meer info.</string>
+        <string name="setup_retry">Probeer opnieuw</string>
+
+        <!--Main-->
+        <string name="MAIN_header_schedule">Rooster</string>
+        <string name="MAIN_no_classes">Geen college.\nGeniet van je dag!</string>
+        <string name="MAIN_no_classes_image_description">Geniet van je vrije dag!</string>
+        <string name="main_rugpas">RUGpas</string>
+        <string name="main_rugpas_placeholder">Onbekend</string>
+        <string name="schedule_update_start">Rooster bijwerken.</string>
+        <string name="schedule_update_end">Rooster bijgewerkt.</string>
+        <string name="schedule_update_error">Rooster kon niet bijgewerkt worden.</string>
+
+        <!--Grade-->
+        <string name="TITLE_grades">Cijfers</string>
+        <string name="GRADE_update">Bijwerken</string>
+        <string name="gradedetail_share">Deel cijfer</string>
+        <string name="gradedetail_related_grades">Overige cijfers</string>
+        <string name="gradedetail_share_text" formatted="false">Ik heb een %s op %s! /via #MyRUG</string>
+
+        <!--Computer-->
+        <string name="TITLE_computers">Werkplekken</string>
+
+        <!--Credit-->
+        <string name="TITLE_credit">RUGpas</string>
+        <string name="CREDIT_update">Bijwerken</string>
+        <string name="credit_placeholder">€ —,—</string>
+        <string name="credit_update_title">Laatst bijgewerkt</string>
+        <string name="credit_update_date">__-__-____ __-__</string>
+        <string name="credit_update_current">Zojuist</string>
+        <string name="credit_topup_title">Opwaarderen</string>
+        <string name="credit_topup_myorder">My Order</string>
+        <string name="credit_topup_webdeposit">Webdeposit</string>
+        <string name="error_nointernetconnection">Je hebt geen internetverbinding. Probeer het opnieuw, zodra je weer een verbinding hebt.</string>
+        <string name="error_noserverresponse">Je saldo is momenteel niet beschikbaar. Probeer het later opnieuw.</string>
+        <string name="error_walledgarden">Je moet inloggen op deze hotspot via de browser, zodat we je saldo kunnen ophalen.</string>
+        <string name="error_nologin">Je inloggegevens zijn niet juist. Vul daarom je inloggegevens opnieuw in.</string>
+        <string name="error_noknowncard">Je hebt geen saldo op je RUGpas. Waardeer op met één van de onderstaande mogelijkheden en probeer het daarna opnieuw.</string>
+        <string name="error_unknown">Er is iets fout gegaan, maar we weten even niet wat. Meld het ons: @TheSocialLions of myrug@thesociallions.nl, dan lossen we het op.</string>
+
+        <!--Schedule-->
+        <string name="TITLE_schedule">Rooster</string>
+        <string name="SCHEDULE_previous_day">Vorige dag</string>
+        <string name="SCHEDULE_next_day">Volgende dag</string>
+        <string name="SCHEDULE_choose_day">Kies dag</string>
+
+        <!--ScheduleDetail-->
+        <string name="TITLE_schedule_detail">Details</string>
+        <string name="SCHEDULE_DETAIL_maps">Bekijk locatie in Maps</string>
+        <string name="SCHEDULE_DETAIL_ocasys">Meer info op Ocasys</string>
+        <string name="SCHEDULE_DETAIL_ocasys_url">https://www.rug.nl/ocasys/rug/main/courseSearchResults?keywords=</string>
+        <string name="SCHEDULE_no_classes">Geen colleges.\nGeniet van je dag!</string>
+
+        <!--Courses-->
+        <string name="TITLE_schedule_courses">Vakinschrijvingen</string>
+
+        <!--Search-->
+        <string name="TITLE_people">Personeel</string>
+        <string name="PEOPLE_hint">Persoon…</string>
+        <string name="TITLE_searchresults">Resultaten</string>
+        <string name="PEOPLE_explanation">Zoek een persoon</string>
+
+        <!--About-->
+        <string name="TITLE_about">Over ons</string>
+        <string name="ABOUT_reset">Opnieuw instellen</string>
+        <string name="ABOUT_logo_description">Logo van The Social Lions</string>
+        <string name="about_app_title">De app</string>
+        <string name="about_app_content">Deze app zou niet mogelijk zijn zonder het heldenwerk van onze betatesters:\n- Joost van Eck\n- Reinard van Dalen\n- Aileen Bus\n&#8230;en vele anderen!\n</string>
+        <string name="about_contact_title">Contact</string>
+        <string name="about_website">Website</string>
+        <string name="about_twitter">Twitter</string>
+        <string name="about_email">Email</string>
+        <string name="about_maker_description">Ontwikkelaar</string>
+
+        <!--Settings-->
+        <string name="autoupdate">Automatisch bijwerken</string>
+        <string name="autoupdate_descrip">Altijd het laatste rooster</string>
+        <string name="title">Deze app</string>
+        <string name="termsandconditions">Juridische details</string>
+        <string name="terms">Voorwaarden</string>
+        <string name="terms_descrip">Noodzakelijk, maar geen kwaad.</string>
+        <string name="privacy">Privacybeleid</string>
+        <string name="privacy_descrip">Ter geruststelling: we volgen je niet.</string>
+        <string name="bug_send">Verstuur</string>
+        <string name="about_help">Help</string>
+        <string name="about_help_summary">Werkgroepen instellen, My Personal Timetable instellen etc.</string>
+        <string name="location_hint">Vind een gebouw</string>
+
+        <string name="TITLE_building">Gebouw</string>
+
+        <string name="location_nearby_url" formatted="false">http://stdy.it/app/location/closestloc.php?lat=%s&amp;long=%s&amp;lang=nl</string>
+        <string name="SETUP_crederror">Je hebt je inloggegevens niet (goed) ingevuld!</string>
+        <string name="SETUP_nosched">Geen rooster gevonden</string>
+        <string name="SETUP_invalcred">Kon niet inloggen</string>
+        <string name="SETUP_invalcred_description">We konden niet inloggen op Nestor. Waarschijnlijk heb je je studentnummer en wachtwoord niet goed ingevuld.</string>
+        <string name="OK">OK</string>
+        <string name="SETUP_ready">Login</string>
+        <string name="SETUP_lostpassword">Wachtwoord vergeten</string>
+        <string name="about_maker">The Social Lions</string>
+        <string name="title_activity_bug">Bug Tracker</string>
+        <string name="MENU_settings">Instellingen</string>
+        <string name="LOCATION_explaination">Zoek een locatie</string>
+        <string name="LOCATION_hint">Locatie…</string>
+        <string name="settings_Terms">Voorwaarden</string>
+        <string name="settings_Schedule">Rooster</string>
+        <string name="settings_editSchedule">Pas je rooster aan</string>
+        <string name="settings_editSchedule_detail">Kies je werkgroepen en keuzevakken.</string>
+        <string name="settings_More">Meer</string>
+        <string name="setup_Welcome">Welkom</string>
+        <string name="setup_Wait">Een moment</string>
+        <string name="TITLE_settings">Instellingen</string>
+        <string name="settings_Schedule_manualUpdate">Rooster bijwerken</string>
+        <string name="settings_Schedule_manualupdate_detail">Werk je rooster handmatig bij om problemen op te lossen</string>
+        <string name="SCHEDULE_editURL">https://nestor.rug.nl/webapps/RuG-cf-bb_bb60/do/editTimeTable?module_id=_4640_1</string>
+        <string name="campus_error">Je locatie is momenteel niet beschikbaar. Probeer het later opnieuw.</string>
+    <string name="creator">Maker</string>
+    <string name="bugreport">Stuur een bugreport</string>
+    <string name="bugreport_description">Help ons deze app te verbeteren.</string>
+    <string name="action_example">Voorbeeldactie</string>
+    <string name="creator_detail">The Social Lions</string>
+    <string name="title_activity_home">Vandaag</string>
+    <string name="more">Meer</string>
+    <string name="beta_testers">Beta testers</string>
+    <string name="beta_testers_description">Zij maken een wereldverschil.</string>
+    <string name="Setting_RUGpas_TopUpMethod">Opwaardeermethode</string>
+    <string name="Setting_RUGpas_TopUpMethodDescrip">Kies je favoriete methode</string>
+    <string name="location_directions">Route</string>
+    <string name="unknown">Onbekend</string>
+    <string name="title_activity_scheduledetail">Details</string>
+    <string name="grade_share">Cijfer delen</string>
+</resources>
